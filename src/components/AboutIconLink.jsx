@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function AboutIconLink() {
   return (
-    <div className="about-link">
+    <Link className="about-link">
       <FaQuestion size={30} />
-    </div>
+    </Link>
   );
 }
 
